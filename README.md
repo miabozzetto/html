@@ -1,1 +1,2 @@
 # html
+### HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear y estructurar páginas web. Se basa en una serie de etiquetas o "elementos" que definen la estructura del contenido en una página. Por ejemplo, las etiquetas <h1> para los encabezados, <p> para párrafos, <a> para enlaces y <img> para imágenes. HTML también permite incorporar otros lenguajes como CSS (para el estilo) y JavaScript (para la interacción). En resumen, HTML es esencial para construir la base de cualquier sitio web
