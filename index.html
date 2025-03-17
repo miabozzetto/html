@@ -18,7 +18,7 @@
         form {
             margin-top: 20px;
         }
-        input[type="password"] {
+        input[type="text"], input[type="password"] {
             padding: 10px;
             font-size: 16px;
             width: 250px;
@@ -36,15 +36,28 @@
         button:hover {
             background-color: #45a049;
         }
+        img {
+            width: 300px;
+            height: auto;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
 
     <h1>Bienvenidos a la escuela</h1>
     
+    <!-- Imagen de la proa -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ship_prow_%28front%29.jpg/800px-Ship_prow_%28front%29.jpg" alt="Proa de un barco">
+    
+    <!-- Formulario -->
     <form>
-        <label for="password">Introduce la contraseña:</label><br>
+        <label for="username">Nombre de usuario:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Contraseña:</label><br>
         <input type="password" id="password" name="password" required><br><br>
+
         <button type="submit">Enviar</button>
     </form>
 
